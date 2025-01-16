@@ -35,29 +35,30 @@ By using this Tool, you agree that you hold responsibility and accountability of
 | `soft`                            | Golds                            |
 | `wands `                          | Keys                             |
 
+</details>
 <details>
 <summary>Click to expand the information</summary>
 
 - Launch of Mergest Kingdom on discord *(and never close it again until the end)*
 - Open the browser console (by pressing `CTRL`+`SHIFT`+`I` on Windows/Linux or `Cmd`+`Opt`+`I` on MacOS)
 - In the **SOURCE** tab, find the file named game.js located at `top/12766.discordsays.com/12766.discordsays.com/.proxy/static/game.js` *(see image below)*
-<img src="img/readme_screenshot/MK_2.png" width="300">
+<img src="img/readme_screenshot/MK_1.png" width="400">
 
 - In `game.js` file,
-- Search the file (by pressing `CTRL`+`F`)
+- Search the file (by pressing `CTRL+`F`)
 - Write the following command and press `ENTER` :
 ```js
 RewardTypes[this.type].handler.call(this, this.value, this.options)
 ```
-- There will normally be 1 results. Navigate to this one and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
-<img src="img/readme_screenshot/MK_3.png" width="400">
+- There will normally be `1` results. Navigate to this one and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
+<img src="img/readme_screenshot/MK_2.png" width="500">
 
 - Return to the game and collect an object *(the game should stop again)*
 - In the **SOURCE** tab, find the type and value arguments at `Local/this` *(see image below)*
-<img src="img/readme_screenshot/MK_4.png" width="300">
+<img src="img/readme_screenshot/MK_3.png" width="300">
 
 - Replace `type` with the item you want *(the list is available above)* and `value` with the quantity you want *(see image below)*
-<img src="img/readme_screenshot/MK_5.png" width="300">
+<img src="img/readme_screenshot/MK_4.png" width="300">
 
 - You can now go back to the `game.js` file in the **SOURCE** tab, then remove the breakpoint *(by clicking on it again)* and click on the `Resume script execution` button again
 - Your item should be added.
