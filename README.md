@@ -88,7 +88,7 @@ Make sure you've followed exactly the steps described in the “Common part of e
 ```js
 "PaymentsManager purchase failure"
 ```
-- There will normally be 2 results. Navigate to the first result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
+- There will normally be 1 results. Navigate to the first result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="img/readme_screenshot/MK_5.png" width="500">
 
 - Return to the game, click on any pack or paid option, then cancel the transaction by clicking on the cross in the top right-hand corner *(the game should stop again)*.
