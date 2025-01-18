@@ -20,7 +20,7 @@ By using this Tool, you agree that you hold responsibility and accountability of
 ## Features
 
 - [x] - [giveInventoryItem](https://github.com/AstraaDev/MergestKingdom-Injector) - Obtain any object in unlimited quantities.
-- [x] - [byPassGamePurchases](https://github.com/AstraaDev/MergestKingdom-Injector) - Get paid packs for free. *(by @mgiannopoulos24)*
+- [x] - [byPassGamePurchases](https://github.com/AstraaDev/MergestKingdom-Injector) - Get paid packs for free. *(by [@mgiannopoulos24](https://github.com/mgiannopoulos24))*
 
 ## Common part of each method
 Each of the methods described here works in the same way. The game needs to be “paused” at the right moment to access certain elements that are normally blocked. The differences between these methods are the information to be retrieved, the precise moment to break the script, the action to be taken to break the script, etc...
@@ -75,7 +75,7 @@ RewardTypes[this.type].handler.call(this, this.value, this.options)
 - Your item should be added.
 </details>
 
-## [METHOD 2] : byPassGamePurchases *(by @mgiannopoulos24)*
+## [METHOD 2] : byPassGamePurchases *(by [@mgiannopoulos24](https://github.com/mgiannopoulos24))*
 <details>
 <summary>Click to expand the information</summary>
 
