@@ -116,7 +116,6 @@ cleverapps.paymentsLogic.purchase = function (a,b,c){
 You're all set! All you have to do is choose the pack you want, and you'll get it for free.
 </details>
 
-## Additional Informations
-Discord :
-- Any question ? Any malfunction ? Contact me on [here](discord.gg/PKR7nM9j9U).
-
+## Additional Information
+- Need help? Join the [Discord Server](https://astraadev.github.io/discord).
+- Contributions are welcome! Open an issue or create a pull request.
