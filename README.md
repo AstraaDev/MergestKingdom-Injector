@@ -117,5 +117,5 @@ You're all set! All you have to do is choose the pack you want, and you'll get i
 </details>
 
 ## Additional Information
-- Need help? Join the [Discord Server](https://astraadev.github.io/discord).
+- Need help? Join the [Discord Server](https://astraadev.github.io/#/discord).
 - Contributions are welcome! Open an issue or create a pull request.
